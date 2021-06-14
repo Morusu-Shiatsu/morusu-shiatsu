@@ -1,0 +1,12 @@
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Shiatsu</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">Moxa</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Voetreflexologie</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Seiki</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Geschenkbon</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="#contact" class="icon fa-address-book" rel="nofollow"><span class="label">Contact</span></a></li>
+  <li><a href="#telefoon" class="icon fa-phone" rel="nofollow"><span class="label">Telefoon</span></a></li>
+</ul>
